@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-landing page</title>
+    <style>
+        body{
+            background-color: rgb(3, 3, 36);
+        }
+        h1{
+            color: aliceblue;
+        }
+        p{
+            background-color: aquamarine;
+        }
+        a:visited{
+            color: aqua;
+
+        }
+        a:hover{
+            color: blueviolet;
+
+        }
+        a:active{
+            color: aquamarine;
+
+        }
+        h3{
+            color: antiquewhite;
+        }
+        .navbar{
+    border: 2px solid white;
+    height: 100px;
+    display: flex
+;
+    gap: 60px;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    /*to make all nav item center this will not help align-items: center; */
+    /* use justufy conternt to make all item center */
+   /* text-decoration: none; */
+   /* flex-wrap: wrap; */
+   flex-flow: row wrap;
+   /* row gap se phn me shi dikhega */
+   row-gap: 2px;
+    
+
+}
+.navitems{
+    color: white;
+    text-decoration: none;
+    /* align-content: center; */
+    /* flex-wrap: 10; */
+
+}
+a .navitems:link{
+    color: azure;
+}
+a .navitems:visited{
+    color: blue;
+}
+a .navitems:hover{
+    color: rgb(119, 221, 36);
+}
+a .navitems:active{
+    color: rgb(17, 17, 145);
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a class="navitems" href="home.html">HOME</a>
+        <a class="navitems" href="about.html">ABOUT</a>
+        <a class="navitems" href="project.html">PROJECTS</a>
+        <a class="navitems" href="contact.html">CONTACT</a>
+    </div>
+    <h1>
+        hey, this is projects section.
+    </h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in ipsam autem, hic, maiores id aspernatur deleniti, quis adipisci accusamus fugiat nostrum illum numquam nisi distinctio architecto! Mollitia, odit reiciendis?
+        <h3>view projects below-</h3>
+        <ul>
+            <a href="https://tanishadhasmana.github.io/mini_portfolio_repo/">mini portfolio</a>
+            <br>
+            <a href="https://tanishadhasmana.github.io/first_form/">form</a>
+            <br>
+            <a href="https://tanishadhasmana.github.io/basic_calculator_using_html/">calculator</a>
+        </ul>
+    </p>
+</body>
+</html>
